@@ -896,7 +896,8 @@ ul.cat li a.active {
     { color:#3b5998;}
 
 .hoverYouTube:hover 
-    { color:#bb0000;}
+    { color:#bb0000;
+        text-decoration: underline;}
 
 .hoverGPlus:hover 
     { color:#dd4b39;}
