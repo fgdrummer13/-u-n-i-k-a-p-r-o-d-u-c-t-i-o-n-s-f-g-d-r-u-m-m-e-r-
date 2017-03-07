@@ -8,7 +8,7 @@ html {
     font-family: 'Lato', sans-serif;
     color: #6f6f6f;
 }
-::-webkit-scrollbar { width: 2px;  }/* for vertical scrollbars */
+::-webkit-scrollbar { width: 10px;  }/* for vertical scrollbars */
 ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); }
 ::-webkit-scrollbar-thumb { background: rgba(0, 0, 0, 0.5); }
 
@@ -91,7 +91,7 @@ a:focus {
 /* Header Page */
 #tf-header {
     padding: 20px 0;
-    background: #ffcc33;
+    background: #ffffff;
     margin-top: 70px;
     color: #ffffff;
 }
@@ -164,7 +164,7 @@ a.goto-btn:hover {
     margin-left: -30px;
     transition: all 0.3s;
 }
-.img-wrapper i.fa:hover { background: #ffcc33 }
+.img-wrapper i.fa:hover { background: #8fc000 }
 /* Home Section Style 3 - Slider*/
 #tf-home.slider { background: none }
 #tf-home.slider .overlay { padding: 0 }
@@ -508,7 +508,7 @@ ul.social li a.fa3:hover { background-color: #dd4b39 }
 }
 .counter i.fa {
     font-size: 40px;
-    color: #FFCC33;
+    color: #8fc000;
 }
 .count-box.last { border-right: 1px solid #d3d3d3 }
 /* Portfolio / Works Sections */
@@ -758,7 +758,7 @@ ul.cat li a.active {
 .nivo-lightbox-theme-default .nivo-lightbox-nav,
 .nivo-lightbox-theme-default .nivo-lightbox-close { opacity: 1 }
 .nivo-lightbox-error {
-    color: #C59A6D !important;
+    color: #8fc000 !important;
     text-shadow: 0 1px 1px rgba(0, 0, 0, 0) !important;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-image img {
@@ -766,7 +766,7 @@ ul.cat li a.active {
     -webkit-box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
     -moz-box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
     box-shadow: 0px 1px 1px rgba(0,0,0,0.4);
-    border-top: 4px solid #ffcc33;
+    border-top: 4px solid #8fc000;
 }
 /* Single Portfolio Detail */
 #work-detail-one,

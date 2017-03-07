@@ -28,11 +28,11 @@
     animation: pulse .5s;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-prev { 
-	background-image: url(prev.png); 
+	background-image: url(prv.png); 
 	border-radius: 0 3px 3px 0;
 }
 .nivo-lightbox-theme-default .nivo-lightbox-next { 
-	background-image: url(next.png); 
+	background-image: url(nxt.png); 
 	border-radius: 3px 0 0 3px;
 }
 
