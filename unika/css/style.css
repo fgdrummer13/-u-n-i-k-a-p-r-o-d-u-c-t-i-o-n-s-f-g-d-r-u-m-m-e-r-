@@ -6,7 +6,7 @@ html {
     overflow-y: auto;
     overflow-x: hidden;
     font-family: 'Lato', sans-serif;
-    color: #6f6f6f;
+    color: #fff;
 }
 ::-webkit-scrollbar { width: 10px;  }/* for vertical scrollbars */
 ::-webkit-scrollbar-track { background: rgba(0, 0, 0, 0.1); }
@@ -167,7 +167,9 @@ a.goto-btn:hover {
 .img-wrapper i.fa:hover { background: #8fc000 }
 /* Home Section Style 3 - Slider*/
 #tf-home.slider { background: none }
-#tf-home.slider .overlay { padding: 0 }
+#tf-home.slider .overlay { padding: 0;
+                           background-color:#191a15;
+                                     }
 .carousel-caption {
     position: absolute;
     right: 15%;
@@ -207,7 +209,7 @@ a.goto-btn:hover {
     width: 14px;
     height: 14px;
     margin: 0;
-    background-color: #E5B112;
+    background-color: #8fc000;
 }
 .carousel-fade .carousel-inner .item {
     opacity: 0;
@@ -363,12 +365,12 @@ h4.media-heading {
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
-    color: #333;
+    color: #8fc000;
     line-height: 20px;
 }
 /* About Us */
 #tf-about { padding: 40px 0 }
-.gray-bg { background-color: #f3f3f3 }
+.gray-bg { background-color: #191A15 }
 .img-wrap .profile-img {
     position: relative;
     margin-bottom: 40px;
@@ -611,7 +613,7 @@ ul.cat li a {
 ul.cat li a:hover,
 ul.cat li a:focus,
 ul.cat li a.active {
-    background: #f1f1f1;
+    background: #8fc000;
     border: 1px solid;
     padding: 5px 10px;
     border-radius: 3px;
@@ -855,7 +857,7 @@ ul.cat li a.active {
 .price.featured.panel-default > .panel-heading { background-color: #8fc000 }
 .featured .panel-body { margin-top: 20px }
 .featured .panel-body,
-.featured.panel-default > .panel-heading { border-color: #8fc000 }
+.featured.panel-default > .panel-heading { border-color: #fff }
 .featured .tf-btn { margin-top: 20px }
 .btn:focus,
 .btn:active:focus,
